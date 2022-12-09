@@ -1,0 +1,350 @@
+body{
+margin: 0;
+font-family: 'Hind Siliguri', sans-serif;
+}
+
+.containerConnexion {
+    height: 100vh;
+}
+.conteneurFormulaire {
+    display: flex;
+    height: 94.5vh;
+
+}
+.carreGauche {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #E7EBEB;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 7px 0px 4px 0px rgba(0,0,0,0.25);
+}
+.logoConnexion {
+    margin: 100px 50px 0 150px ;
+    width: 50%;
+}
+.connexionForm {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.centerSeConnecter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.connexionCarre {
+    width: 40%;
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 0px 50px 20px 50px;
+    box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.25);
+}
+a {
+    text-decoration: none;
+    color: #374151;
+    text-align: center;
+}
+.insertInfo {
+    width: 100%;
+    height: 20px;
+    border: none;
+    background-color:#E7EBEB ;
+    border-radius: 5px;
+}
+.centerSeConnecter .btnConnexion {
+    width: 200px;
+    height: 60px;
+    background-color: #374151;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+/*Page page_reussi.php*/
+.phraseAccueil {
+    color: #374151;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 80%;
+    mix-blend-mode: color-burn;
+}
+.logoAddPost {
+    width: 10%;
+}
+nav {
+    background-color: lightgrey;
+}
+.idNav {
+    margin-top: 5px;
+    
+}
+.flex_end {
+    display: flex;
+    justify-content: flex-end;
+}
+.navUl {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navLi {
+    width: calc(100%/5);
+    text-align: center;
+}
+.barreEntreNav {
+    height: 100px;
+    width: 1px;
+    background-color: #374151;
+}
+.displayInfoUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.containerTitrePosts {
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+}
+.titrePosts {
+    width: calc(100%/3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 50px;
+    color: white;
+    
+    background-color: #374151;
+}
+.containerAll {
+    display:flex;
+    justify-content: space-evenly;
+}
+.containerTexteSimple {
+    width:30%;
+}
+.containerImagePost {
+    width:30%;
+}
+.containerThreadPost {
+    width:30%;
+}
+.imageDesPosts {
+    position:relative;
+    width: 100%;
+}
+.timeSpan {
+    width: 50%;
+}
+.nameTag {
+    width: 70%;
+}
+.divBoxTexte {
+    padding: 20px 50px 20px 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 7px 7px 4px 0px rgba(0,0,0,0.25);
+}
+.supprBtn {
+    border: none;
+    width: 40px;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    background: url("./images/poubelle.png");
+}
+.containerCommDel {
+    display: flex;
+    justify-content: space-between;
+}
+.cercleProfile {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.containerHeaderPost {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*le footer*/
+.footerLogoCopy {
+    background-color: lightgrey;
+    display: flex;
+}
+.barreFooter {
+    height: 100%;
+    width: 1px;
+    background-color: black;
+}
+.logoBarre {
+    width: 5%;
+    display: flex;
+    padding: 10px;
+    border-right: 2px solid;
+}
+.petitLogo {
+    width: 100%;
+}
+.navFooter {
+    justify-content: space-around;
+    background-color: lightgray;
+    border-bottom: 2px solid;
+    padding: 30px 0px 30px 0px;
+}
+.copyright {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*page choix post*/
+.choisirPost {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+    margin: 20px 0 20px 0;
+}
+.listChoisirPostTaille {
+    width: calc(100%/3);
+    list-style-type: none;
+}
+.listChoisirPost {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.listChoisirPost2 {
+    padding: 20px;
+
+}
+ .boxChoixPost {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.25);
+}
+ .listChoix {
+    display: flex;
+    justify-content: space-between;
+}
+.choixUl {
+    list-style-type: none;
+}
+.boxChoixPost {
+    margin: 20px;
+    width:calc(100%/3);
+}
+.imageChoixPost {
+    width: 100%;
+}
+.marg {
+    margin-left: 10px;
+}
+
+/*page de post*/
+
+.divBoxTextePost {
+    margin: 0 20px 20px 20px;
+    padding: 0 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    width: 23%;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.25);
+}
+.textArea {
+    height: 30%;
+}
+
+/*image post*/
+.tailleMaxImage {
+    width: 100%;
+}
+.centerImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerImage {
+    width: 20%;
+}
+.containerBouton {
+    height: 30px;
+    width: 150px;
+    background-color: #374151;
+    color: white;
+}
+.centerError {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.errorMessage {
+    padding: 2px 5px 2px 5px;
+    background-color: red;
+    border-radius: 50px;
+    color:#374151;
+}
+.successMessage {
+    padding: 2px 5px 2px 5px;
+    background-color: lightgreen;
+    border-radius: 50px;
+    color:#374151;
+}
+/*article */
+.dFlexName {
+    display: flex;
+    justify-content: space-between;
+}
+.divBoxTextePostCol {
+    margin: 0 20px 20px 20px;
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 23%;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px 0 rgba(0, 0, 0, 0.25);
+}
+.paddArticle {
+    padding: 20px;
+}
+.errorPost {
+    width: 200px;
+    padding: 2px 5px 2px 5px;
+    background-color: red;
+    border-radius: 50px;
+    color:#374151;
+    text-align: center;
+}
+.successPost {
+    width: 250px;
+    padding: 2px 5px 2px 5px;
+    background-color: lightgreen;
+    border-radius: 50px;
+    color:#374151;
+    text-align: center;
+}
